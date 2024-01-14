@@ -3,6 +3,7 @@
 import React from 'react';
 import { Routes as RoutesComponent, Route } from 'react-router-dom';
 import Home from './indexPage';
+import Errorpage from './error_page';
 // import About from './components/Pages/About';
 // import Contact from './components/Pages/Contact';
 // import ServicePage from './components/Pages/Services';
@@ -25,7 +26,7 @@ function Routes() {
       <Route path="/login" element={<LoginPage />} />
       <Route path="/projects/:projectTitle" element={<ProjectPage />} /> 
       <Route path="/techstacks/:name" element={<TechStacksPage />} />  */}
-
+< Route path='*' element={<Errorpage/>}/>
 
     </RoutesComponent>
   );

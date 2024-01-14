@@ -117,8 +117,8 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/pricing" className="nav-link header-link">
-                  Quotes
+                <Link to="/Portfolio" className="nav-link header-link">
+                Case Study
                 </Link>
               </li>
               <li className="nav-item">

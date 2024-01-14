@@ -1,0 +1,106 @@
+.cta_root {
+}
+
+.cta_container {
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  margin: 20px;
+}
+.cta_contents {
+}
+
+.cta_contents {
+}
+
+.cta_contents h3 {
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  display: flex;
+  color: #030525;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 130%;
+  letter-spacing: -0.5px;
+}
+
+.cta_contents p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 32px;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(3, 5, 37, 0.6);
+  letter-spacing: -0.2px;
+  justify-content: center;
+  display: flex;
+}
+
+.cta_contents button {
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  transition: color 0.3s, transform 0.3s;
+  cursor: pointer;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
+.cta_contents button a {
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+.cta_contents button:hover {
+  color: #ffffff;
+
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+
+
+/* Add media query for mobile responsiveness */
+@media (max-width: 768px) {
+
+  .cta_container {
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    margin: 20px;
+  }
+
+  .cta_contents h3 {
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    display: flex;
+    color: #030525;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -0.5px;
+  }
+  
+  .cta_contents p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 32px;
+    font-family: "Open Sans", sans-serif;
+    color: rgba(3, 5, 37, 0.6);
+    letter-spacing: -0.2px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .cta_contents button {
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    transition: color 0.3s, transform 0.3s;
+    cursor: pointer;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+}

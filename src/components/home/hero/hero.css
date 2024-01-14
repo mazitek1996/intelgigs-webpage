@@ -1,0 +1,144 @@
+.hero_root {
+  height: 100vh;
+  background-color: #171717;
+}
+
+.hero_content {
+    position: relative;
+ z-index: 20;
+}
+
+.hero_heading h1 {
+  text-align: center;
+  font-size: 65px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.hero_subheading {
+}
+
+.hero_subheading p {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding-top: 50px;
+  opacity: 0.7;
+}
+
+.hero_button {
+  padding-top: 20px;
+}
+
+.hero_btn_text {
+  height: 45px;
+  width: 20%;
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  padding: 10px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow: 0 0 100px 100px rgba(55, 57, 105, 0.8);
+  transition: color 0.3s, transform 0.3s;
+}
+
+.hero_btn_text:hover {
+  filter: drop-shadow(0 0 2em #010607aa);
+}
+
+.hero_btn_text p {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.hero_icons_section {
+  display: flex;
+  gap: 10px;
+}
+
+.hero_icons_section p {
+  font-size: 40px;
+  color: teal;
+  text-shadow: 0 0 10px rgba(0, 255, 150, 0.8);
+  cursor: pointer;
+}
+
+.hero_icon {
+  margin: 0 10px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.hero_icon:hover {
+  color: turquoise;
+  transform: scale(1.2);
+}
+
+/* display_screen */
+
+.display_screen {
+  
+    position: absolute;
+left: 25%;
+padding-top: 50px;
+}
+
+
+
+/* Add media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .hero_heading h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero_subheading p {
+    font-size: 0.875rem;
+  }
+
+  .hero_btn_text {
+    font-size: 0.875rem;
+  }
+
+
+.hero_btn_text {
+  height: 45px;
+  width: 40vw;
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  padding: 10px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow: 0 0 100px 100px rgba(55, 57, 105, 0.8);
+  transition: color 0.3s, transform 0.3s;
+  margin-left: 25%;
+}
+
+
+
+  .hero_icons_section p {
+    font-size: 1.5rem;
+  }
+
+
+  .display_screen {
+  
+    position: absolute;
+    left: 10%;
+}
+
+
+
+
+
+
+
+  
+}

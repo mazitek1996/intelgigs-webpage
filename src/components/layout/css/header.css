@@ -1,0 +1,66 @@
+.header-container {
+  background-color: #171717;
+  color: white;
+}
+
+.header-brand {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.header-brand-text {
+  color: white;
+}
+
+.header-toggler {
+  background-color: white;
+  border: none;
+}
+
+.header-nav {
+  margin-top: 10px;
+  align-content: center;
+}
+
+.header-link {
+  color: #ffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.header-link:hover {
+  color: #ffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.header-btn {
+  margin-top: 10px;
+}
+
+.header-contact-btn {
+  height: 30px;
+  width: 100px;
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  bottom: 10%;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+.header-contact-btn a {
+  text-decoration: none;
+  margin: 0;
+}
+.header-divider {
+  border-top: 1px solid #ffff;
+  position: relative;
+  box-shadow: 0 0 100px 20px rgba(55, 57, 105, 0.8);
+}

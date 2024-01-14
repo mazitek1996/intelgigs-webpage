@@ -1,0 +1,59 @@
+
+
+
+/* Announcement Bar */
+.announcement-bar {
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .announcement-bar p {
+    margin: 0; 
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffff;
+  }
+  
+  /* Info Circle Icon Styles */
+  .announcement-bar svg {
+    color: #721c24; 
+    font-size: 1.2rem; 
+    cursor: pointer;
+  }
+  
+  /* Hover Effect for Icon */
+  .announcement-bar svg:hover {
+    color: #bd2130;
+  }
+  
+  /* Remove Text Decoration from Announcement Text */
+  .announcement-bar a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Hover Effect for Text */
+  .announcement-bar a:hover {
+    text-decoration: underline;
+  }
+
+  .announcement-bar span {
+    display: flex;
+  }
+  .announcement-bar span p:first-child {
+    
+    font-size: 12px;
+    
+  }
+
+  .announcement-bar span p:last-child {
+    
+    font-size: 12px;
+    text-decoration: underline;
+    
+  }

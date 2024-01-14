@@ -1,0 +1,123 @@
+
+
+
+.tech-stacks-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+
+
+.ts_section_text h2{
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center; 
+    display: flex;
+    color: #030525;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+
+  .tech-stack-item {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .tech-stack-technologies {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .tech-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .tech-item:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 2em #61dafbaa);
+
+  }
+  
+  .tech-item.selected {
+    border: 2px solid #007bff;
+    
+  }
+  
+  .selected-tech {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .tech-stack-item:hover .selected-tech {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .selected-tech img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .selected-tech span {
+    margin-top: 5px;
+  }
+  
+  .tech-stack-technologies img {
+    width: 70px;
+  }
+
+  .tech-stack-item.active {
+    height: 30px;
+    width: auto;
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    color: #ffffff;
+    transition: color 0.3s, transform 0.3s;
+    text-align: center;
+  }
+
+  .tech-stack-item.active h3 {
+    color: #ffffff;
+  }
+
+.tech-stack-item h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #030525;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+
+
+/* Add media query for mobile responsiveness */
+
+
+@media  (max-width: 768px){
+  
+  
+}

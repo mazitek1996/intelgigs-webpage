@@ -1,0 +1,188 @@
+/* service_section.css */
+.service_section_root {
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.service_section_container {
+    padding-top: 50px;
+}
+
+.service_section_left {
+    padding-top: 50px;
+}
+
+.service_section_left h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.service_section_left h3 span {
+
+    font-family: 'Open Sans', sans-serif;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.service_section_left p {
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+margin-bottom: 32px;
+font-family: 'Open Sans', sans-serif;
+color: rgba(252, 252, 252, 0.6);
+letter-spacing: -.2px;
+justify-content: center; 
+display: flex;
+padding-top: 20px;
+}
+
+
+
+.carousel_card {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.carousel_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.service_section_right {
+  position: relative;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  z-index: 1;
+}
+
+
+.carousel_card:hover .card-body {
+  transform: translateX(0);
+}
+
+.card-body h4 {
+     font-family: 'Open Sans', sans-serif;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+}
+.card-body p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(252, 252, 252, 0.6);
+    letter-spacing: -.2px;
+    justify-content: center; 
+    display: flex;
+}
+.learn-more-btn {
+    height: 45px;
+    width: 40%;
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    color: #ffffff;
+    box-shadow: 0 0 100px 100px rgba(55, 57, 105, 0.8);
+    transition: color 0.3s, transform 0.3s;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(252, 252, 252, 0.6);
+    letter-spacing: -.2px;
+    justify-content: center; 
+    display: flex;
+}
+
+.learn-more-btn:hover {
+  background-color: #0056b3;
+}
+
+.slick-dots-container {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slick-dots {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.slick-dots li {
+  margin: 0 10px;
+}
+
+.slick-dots li button {
+  font-size: 10px;
+  color: #fff;
+  background-color: #ccc;
+  border: none;
+  width: 30px;
+  height: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+  background-color: teal;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.carousel_card:hover .card-body {
+  transform: translateX(0);
+}
+
+
+
+/* Add media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .service_section_root {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+
+}

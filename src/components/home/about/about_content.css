@@ -1,0 +1,121 @@
+
+.ac_root {
+
+}
+
+.ac_container {
+
+}
+.ac_headings {
+    
+}
+
+.ac_headings h2 {
+    
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center; 
+    display: flex;
+    color: #030525;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    letter-spacing: -.5px;
+}
+
+
+.ac_subheadings {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(3,5,37,.6);
+    letter-spacing: -.2px;
+    justify-content: center; 
+    display: flex;
+}
+
+
+.ac_contents_root {
+    height: 80vh;
+    background-color:  #f8f8f8;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.os_content_left_heading {
+    padding-top: 20px;
+}
+
+.os_content_left_heading h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #030525;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -.5px;
+}
+
+
+.os_content_left_heading h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #030525;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+
+.os_content_left {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(3,5,37,.6);
+    letter-spacing: -.2px;
+    justify-content: center; 
+    display: flex;
+
+
+    
+}
+
+
+
+/* Add media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .ac_headings h2 {
+    
+        font-family: 'Open Sans', sans-serif;
+        justify-content: center; 
+        display: flex;
+        color: #030525;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 130%;
+        letter-spacing: -.5px;
+    }
+    
+
+.ac_subheadings {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(3,5,37,.6);
+    letter-spacing: -.2px;
+    justify-content: center; 
+    display: flex;
+}
+
+.ac_contents_root {
+    height: 100%;
+    background-color:  #f8f8f8;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+}

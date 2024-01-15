@@ -4,7 +4,7 @@ import React from 'react';
 import { Routes as RoutesComponent, Route } from 'react-router-dom';
 import Home from './indexPage';
 import Errorpage from './error_page';
-// import About from './components/Pages/About';
+import About from './components/pages/about/about';
 // import Contact from './components/Pages/Contact';
 // import ServicePage from './components/Pages/Services';
 // import CaseStudyPage from './components/Pages/Case_Study';
@@ -17,8 +17,8 @@ function Routes() {
   return (
     <RoutesComponent>
       <Route path="/" element={<Home />} />
-      {/* <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
+      {/* <Route path="/contact" element={<Contact />} />
       <Route path="/Services" element={<ServicePage />} />
       <Route path="/case_study" element={<CaseStudyPage />} />
       

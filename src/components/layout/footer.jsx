@@ -34,10 +34,10 @@ export default function Footer() {
 
                 <ul className="footer_list">
                   <li>
-                    <Link to="/About-Us">About Us</Link>
+                    <Link to="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link to="/Contact-Us">Contact Us</Link>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                   <li>
                     <Link to="/FAQs">FAQs</Link>

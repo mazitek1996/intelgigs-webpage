@@ -107,12 +107,12 @@ function Header() {
           <div className="collapse navbar-collapse header-nav" id="navbarNav">
             <ul className="navbar-nav ms-auto header-nav">
               <li className="nav-item">
-                <Link to="/" className="nav-link header-link" aria-current="page">
+                <Link to="/about" className="nav-link header-link" aria-current="page">
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/features" className="nav-link header-link">
+                <Link to="/services" className="nav-link header-link">
                   Service
                 </Link>
               </li>
@@ -127,7 +127,7 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/about" className="nav-link header-link">
+                <Link to="/career" className="nav-link header-link">
                   Career
                 </Link>
               </li>

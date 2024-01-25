@@ -8,19 +8,19 @@ function TestimonialSection() {
     {
       user: "John Adeboye",
       testimony:
-        "Working with Intelgigs has been an amazing experience. They delivered exceptional results and exceeded our expectations.",
+        "Working with Nivarix has been an amazing experience. They delivered exceptional results and exceeded our expectations.",
       rating: 5,
     },
     {
       user: "Musa Yahaya",
       testimony:
-        "Intelgigs stands out for their professionalism and commitment to excellence. We are thrilled with the outcomes they have achieved for us.",
+        "Nivarix stands out for their professionalism and commitment to excellence. We are thrilled with the outcomes they have achieved for us.",
       rating: 4,
     },
     {
       user: "Bob Okereke",
       testimony:
-        "I highly recommend Intelgigs. Their innovative solutions have added significant value to our projects. A pleasure to work with!",
+        "I highly recommend Nivarix. Their innovative solutions have added significant value to our projects. A pleasure to work with!",
       rating: 5,
     },
   ];

@@ -1,0 +1,43 @@
+.f_s_root {
+  padding: 50px 0; 
+}
+
+.f_s_container {
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container */
+}
+
+.f_s_heading {
+  text-align: center; /* Center-align the heading */
+  margin-bottom: 30px; /* Add space below the heading */
+}
+
+.f_s_heading_text {
+  font-size: 18px; /* Adjust font size as needed */
+  color: #343a40; /* Set text color */
+}
+
+.f_s_carousel_card_container {
+  margin-top: 20px; /* Add space above the slider */
+}
+
+.f_s_container .card {
+  border: none; /* Remove default card border */
+  border-radius: 15px; /* Add border radius for a rounded appearance */
+  overflow: hidden; /* Hide overflowing content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+
+.f_s_container .card-img {
+  height: 70vh; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure images cover the entire container */
+}
+
+.f_s_container .card-title,
+.card-text {
+  color: #212529; /* Set text color */
+}
+
+/* Add any additional styling as needed */

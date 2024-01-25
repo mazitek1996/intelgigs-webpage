@@ -56,7 +56,7 @@ function DisplayScreen() {
       </video>
       <div className="content">
         {/* Add your card content here */}
-        <h2>IntelGigs Technologies &trade;</h2>
+        <h2>Nivarix Technologies &trade;</h2>
         <p>Empowering Innovations, Transforming Realities</p>
       </div>
     </div>

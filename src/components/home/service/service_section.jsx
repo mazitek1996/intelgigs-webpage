@@ -70,10 +70,10 @@ const ServiceSection = () => {
   //       <div className="row">
   //         <div className="col-lg-4 col-md-4 service_section_left">
   //           <h3>
-  //             <span>Intelgigs -</span> Where Innovation Meets Aspiration
+  //             <span>Nivarix -</span> Where Innovation Meets Aspiration
   //           </h3>
   //           <p>
-  //             At Intelgigs, we don't just create solutions; we craft
+  //             At Nivarix, we don't just create solutions; we craft
   //             transformative experiences that propel your vision into the
   //             digital future. Embrace innovation, embrace success.
   //           </p>
@@ -112,15 +112,15 @@ const ServiceSection = () => {
         <div className="row">
           <div className="col-lg-4 col-md-4 service_section_left">
             <h3>
-              <span>Intelgigs -</span> Where Innovation Meets Aspiration
+              <span>Nivarix -</span> Where Innovation Meets Aspiration
             </h3>
             <p>
-              At Intelgigs, we don't just create solutions; we craft
+              At Nivarix, we don't just create solutions; we craft
               transformative experiences that propel your vision into the
               digital future. Embrace innovation, embrace success.
             </p>
             <div className="service_section_left_btn">
-              <Link to="/service" className="learn-more-btn">
+              <Link to="/services" className="learn-more-btn">
                 Learn More
               </Link>
             </div>

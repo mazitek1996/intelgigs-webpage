@@ -5,10 +5,10 @@ import React from "react";
 import "./css/footer.css";
 import { Divider } from "@mui/material";
 import { Link } from "react-router-dom";
+import FootLogo from "../../assets/nivarixLogo.svg"
 
 import { FaAngleRight,FaFacebook,FaTwitter,FaInstagram,FaLinkedin,FaYoutube, } from "react-icons/fa";
 
-import FootLogo from "../../assets/brands/NodeJS.svg";
 export default function Footer() {
   const date = new Date();
   const currentYear = date.getFullYear();
@@ -23,7 +23,7 @@ export default function Footer() {
               <div className="outro_container">
                 <p>
                   <span className="snap-outro">Innovating Africa |</span>
-                  &#169; {currentYear} IntelGigs Technologies.
+                  &#169; {currentYear} Nivarix Technologies.
                 </p>
               </div>
             </div>
@@ -154,11 +154,11 @@ export default function Footer() {
               },
             }}
           >
-            <b>IntelGigs Technologies.</b>
+            <b>Nivarix Technologies.</b>
           </Divider>
           <div className="lower_footer_text">
             <p>
-            IntelGigs Technologies stands at the forefront of innovation, offering cutting-edge solutions in the tech landscape. As a trailblazer in Nigeria, we specialize in providing comprehensive digital services. From web development to AI integration, we empower businesses to thrive in the dynamic digital realm. Our commitment to excellence and seamless client experiences sets IntelGigs apart. Join us on the journey to redefine possibilities and achieve unparalleled success in the digital era.
+            Nivarix Technologies stands at the forefront of innovation, offering cutting-edge solutions in the tech landscape. As a trailblazer in Nigeria, we specialize in providing comprehensive digital services. From web development to AI integration, we empower businesses to thrive in the dynamic digital realm. Our commitment to excellence and seamless client experiences sets Nivarix apart. Join us on the journey to redefine possibilities and achieve unparalleled success in the digital era.
             </p>
           </div>
           <div className="address_container">

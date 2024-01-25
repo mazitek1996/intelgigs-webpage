@@ -17,6 +17,7 @@ import { FaBrain } from "react-icons/fa";
 
 import Typewriter from "typewriter-effect";
 import DisplayScreen from "../display_screen/display_screen";
+import FeatureSection from "../../pages/services/featured_services";
 
 function Hero() {
   return (
@@ -28,8 +29,9 @@ function Hero() {
               <div className="hero_heading">
                 <h1 class="col-lg-8 mx-auto">
                   Empowering Dreams, Transforming Realities - Welcome to
-                  IntelGigs
+                  Nivarix
                 </h1>
+                
               </div>
               <div class="col-lg-6 mx-auto">
                 <div className="hero_subheading">

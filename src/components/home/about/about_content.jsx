@@ -22,7 +22,7 @@ function AboutContent() {
 
               <div className="os_content_left_heading">
                 <span>
-                  <h2>IntelGigs Technologies</h2>
+                  <h2>Nivarix Technologies</h2>
                   <h3>
                     A Vision Realized <BsArrowUpRightCircle />
                   </h3>
@@ -31,11 +31,11 @@ function AboutContent() {
               </div>
 
               <p className="os_content_left">
-                At IntelGigs, our journey began as a collective of passionate
+                At Nivarix, our journey began as a collective of passionate
                 individuals driven by a shared vision for innovation and
                 technological excellence. It all started with a simple idea—an
                 idea that would later evolve into a thriving venture that we
-                proudly call IntelGigs today.
+                proudly call Nivarix today.
               </p>
 
               <div className="os_content_left_heading">
@@ -66,7 +66,7 @@ function AboutContent() {
               </div>
 
               <p className="os_content_left">
-                IntelGigs is not just a company; it's a catalyst for positive
+                Nivarix is not just a company; it's a catalyst for positive
                 change. Our journey has been intertwined with the vibrant fabric
                 of the African society. We take pride in contributing to
                 technological advancements that transcend borders, creating

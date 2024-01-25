@@ -1,0 +1,19 @@
+.services_page_root {
+  background-color: #171717;
+  height: 100%;
+}
+.c-s_bottom_card {
+  width: 80%;
+  height: 300px;
+  border-radius: 21px 21px 0 0;
+}
+
+.featured_component {
+  padding-top: 50px;
+}
+
+
+.services_intro_container {
+
+  
+}

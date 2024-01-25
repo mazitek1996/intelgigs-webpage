@@ -25,115 +25,151 @@
 
 .about_intro_container img {
   outline: none;
-  
 }
-
 
 .about_partners_container {
 }
 .about_partners_container h2 {
-    font-size: 20px;
+  font-size: 20px;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   padding-top: 50px;
-
 }
 .about_partners_logos {
-    
-    display: flex;
-    gap: 10px;
-    padding-top: 20px;
-
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
 }
-
 
 .about_partners_container img {
   height: 30px;
   cursor: pointer;
-  
 }
 
-.about_journey_container h2{
-    font-size: 20px;
-    color: #ffffff;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    padding-top: 50px;
+.about_partners_container img:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.about_journey_container h2 {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  padding-top: 50px;
 }
 
 .about_tech_stacks_container {
-    padding-top: 20px;
+  padding-top: 20px;
 }
-
 
 .about_tech_stacks_container .container {
-    background: teal;
- border-radius: 20px;
+  background: teal;
+  border-radius: 20px;
 }
-
 
 .about_vision_container {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
-
-.about_vision_container h2 {
-
-    font-size: 20px;
-    color: #ffffff;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    padding-top: 50px;
+.about_vision_content-left {
+}
+.about_vision_content-left h2 {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  padding-top: 50px;
 }
 
+.about_vision_content-right p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 32px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+  justify-content: center;
+  display: flex;
+  opacity: 0.7;
+}
+
+.about_vision_content-right img {
+  height: fit-content;
+  width: auto;
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.about_impact_container {
+}
+
+.about_impact_content-left img {
+  height: fit-content;
+  width: auto;
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.about_impact_content-right h2 {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.about_impact_content-right p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 32px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+  justify-content: center;
+  display: flex;
+  opacity: 0.7;
+}
 
 /* Add media query for mobile responsiveness */
 @media (max-width: 768px) {
-    .about_intro_container h1 {
-        text-align: center;
-        font-size: 25px;
-        color: #ffffff;
-        font-weight: 600;
-        font-family: "Open Sans", sans-serif;
-        padding-top: 20px;
-      }
-      
-      .about_intro_container p {
-        font-size: 16px;
-        color: #ffffff;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
-        padding-top: 20px;
-        opacity: 0.7;
-      }
-      
-      .about_intro_container img {
-        outline: none;
-        
-      }
+  .about_vision_content-left h1 {
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 20px;
+  }
 
-
-.about_partners_container h2 {
+  .about_vision_content-left p {
     font-size: 16px;
-  color: #ffffff;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  padding-top: 20px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    opacity: 0.7;
+  }
 
-}
-.about_partners_logos {
-    
+  .about_intro_container img {
+    outline: none;
+  }
+
+  .about_partners_container h2 {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+  }
+  .about_partners_logos {
     display: flex;
     gap: 10px;
     padding-top: 20px;
+  }
 
-}
-
-
-.about_partners_container img {
-  height: 25px;
-  cursor: pointer;
-  
-}
+  .about_partners_container img {
+    height: 25px;
+    cursor: pointer;
+  }
 }

@@ -5,7 +5,7 @@ import React from "react";
 import "./css/footer.css";
 import { Divider } from "@mui/material";
 import { Link } from "react-router-dom";
-import FootLogo from "../../assets/nivarixLogo.svg"
+import FootLogo from "../../assets/NivarixLogo.svg"
 
 import { FaAngleRight,FaFacebook,FaTwitter,FaInstagram,FaLinkedin,FaYoutube, } from "react-icons/fa";
 

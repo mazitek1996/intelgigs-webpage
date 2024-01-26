@@ -10,8 +10,10 @@
   font-size: 30px;
 }
 
-.header-brand-text {
-  color: white;
+.header-brand-text img{
+  
+  height: 100px;
+  width: auto;
 }
 
 .header-toggler {
@@ -67,3 +69,14 @@
 
 
 
+
+/* Add media query for mobile responsiveness */
+@media (max-width: 768px) {
+
+  .header-brand-text img{
+  
+    height: 70px;
+    width: auto;
+  }
+
+}

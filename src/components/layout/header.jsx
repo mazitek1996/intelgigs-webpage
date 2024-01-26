@@ -5,7 +5,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./css/header.css";
 import AnnouncementBar from "../home/announcement/announcement_bar";
-import LogoImage from "../../assets/nivarixLogo.svg"
+import LogoImage from "../../assets/NivarixLogo.svg"
 function Header() {
   return (
     <div className="header-container">

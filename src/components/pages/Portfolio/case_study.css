@@ -1,10 +1,178 @@
-
 .case_study_root {
-    background-color: #171717;
-    height: 100%;
+  background-color: #171717;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
 
+.c_s_intro_container {
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  padding: 10px;
 }
 
 .c_s_intro_window {
-    max-height: 30vh;
+  max-height: 50vh;
 }
+
+.c_s_intro_container h1 {
+  text-align: center;
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 50px;
+}
+
+.c_s_intro_container p {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding-top: 50px;
+  opacity: 0.7;
+}
+
+
+.Strategies_showcase_section {
+
+
+}
+
+.Strategies_showcase_section h1 {
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+
+}
+
+.Strategies_showcase_section p {
+ font-size: 16px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+
+
+.industry_collaborations_section {
+    background: url(https://images.unsplash.com/photo-1698060437027-18f4b99ff132?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+}
+
+
+.industry_collaborations_section h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+
+    
+}
+
+.industry_collaborations_section .row {
+
+    padding-top: 50px;
+}
+
+
+.industry_collaborations_top_right {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(7, 138, 179, 0.75);
+    
+}
+
+.industry_collaborations_top_right p {
+
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+
+.industry_collaborations_top_left {
+
+
+}
+
+
+.industry_collaborations_down {
+
+
+}
+
+.industry_collaborations_down p{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-top: 50px;
+    
+} 
+
+
+.industry_collaborations_bottom_text {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-top: 50px;
+}
+
+.industry_collaborations_bottom_text:hover {
+
+    color: black;
+}
+
+.awards_recognitions_section {
+    padding-top: 50px;
+}
+
+
+
+
+
+
+.awards_recognitions_section_bg_image {
+    background: url(https://images.unsplash.com/photo-1700668497390-43014cf7a3b4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.awards_recognitions_section_bg_image h2 {
+
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+
+
+}
+
+.awards_recognitions_section_bg_image p {
+
+
+     font-size: 16px;
+     color: #ffffff;
+     font-family: "Open Sans", sans-serif;
+     font-weight: 400;
+     opacity: 0.7;
+     padding-top: 50px;
+
+}
+

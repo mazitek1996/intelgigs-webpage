@@ -79,6 +79,7 @@ function ServicesPage() {
       <div>
         <FeaturedServices />
       </div>
+      
     </div>
   );
 }

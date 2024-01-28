@@ -47,9 +47,7 @@ function CaseStudy() {
               />
             </div>
             <div className="col-lg-6">
-              <h1 className="  lh-1 mb-3">
-                Strategies Showcase
-              </h1>
+              <h1 className="  lh-1 mb-3">Strategies Showcase</h1>
               <p className="Strategies_showcase_section_p">
                 Explore our diverse range of strategies that demonstrate our
                 team's capabilities. From hypothetical case studies to internal
@@ -69,6 +67,82 @@ function CaseStudy() {
         </div>
       </section>
 
+      {/* Awards and Recognitions Section */}
+
+      <section className="awards_recognitions_section">
+        <div className="awards_recognitions_container container">
+          <div class="p-5 mb-4  rounded-3 celebrating-section">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-8 ">
+                  <h2>
+                    Celebrating Technological Visionaries and Achievements
+                  </h2>
+                  <p>
+                    At Nivarix, our success is a collective journey marked by
+                    the visionaries, innovators, and bright minds who make up
+                    our community. While we may not boast a wall of corporate
+                    awards, our greatest recognition lies in the growth and
+                    accomplishments of the individuals we work with.
+                  </p>
+
+                  <p>
+                    At Nivarix, our success is a collective journey marked by
+                    the visionaries, innovators, and bright minds who make up
+                    our community. While we may not boast a wall of corporate
+                    awards, our greatest recognition lies in the growth and
+                    accomplishments of the individuals we work with.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="https://images.unsplash.com/photo-1659284652601-7ac13e5750d5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row align-items-md-stretch empower_section">
+            <div class="col-md-6">
+              <div class="h-100 p-5 text-bg-dark rounded-3">
+                <h2>Empowering Tech Trailblazers</h2>
+                <p>
+                  We celebrate the achievements of the young, brilliant minds
+                  who contribute to Nivarix's vibrant ecosystem. Our focus is on
+                  fostering an environment where visionary individuals can
+                  flourish, gain experiences, and contribute meaningfully to
+                  innovative projects. Our greatest reward is seeing our
+                  community members thrive and leave a lasting impact on the
+                  tech landscape.
+                </p>
+                <p>
+                  Nivarix is not just a company; it's a community of learners,
+                  collaborators, and forward-thinkers. We prioritize recognizing
+                  the efforts of those who strive for excellence, providing them
+                  with opportunities to shine and contribute to groundbreaking
+                  projects. Our commitment to empowering the next generation of
+                  tech leaders is reflected in every success story within our
+                  community.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 bg-with-image awards_recognitions_section_bg_image">
+              <div class="h-100 p-5 shadow border rounded-3">
+                <h2>Building a Legacy of Innovation</h2>
+                <p>
+                  Join us in celebrating the visionaries, the creators, and the
+                  trailblazers who are defining the future of technology at
+                  Nivarix. Together, we're not just achieving milestones; we're
+                  building a legacy of innovation and collaboration.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Industry Collaborations Section */}
       <section className="industry_collaborations_section ">
         <div className="industry_collaborations_container container">
@@ -126,85 +200,18 @@ function CaseStudy() {
               </p>
             </div>
           </div>
-<div className="industry_collaborations_bottom_text text-center">
-<p >
-            Be part of our story, and let's shape the African future together  <BsBoxArrowUpRight/>.
-          </p>
-</div>
-
-         
-        </div>
-      </section>
-
-      {/* Awards and Recognitions Section */}
-
-      <section className="awards_recognitions_section">
-        <div className="awards_recognitions_container container">
-        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-8">
-        <h1>Celebrating Technological Visionaries and Achievements</h1>
-        <p >
-          At Nivarix, our success is a collective journey marked by the visionaries, innovators, and bright minds who make up our community. While we may not boast a wall of corporate awards, our greatest recognition lies in the growth and accomplishments of the individuals we work with.
-        </p>
-
-        <p>
-
-
-        At Nivarix, our success is a collective journey marked by the visionaries, innovators, and bright minds who make up our community. While we may not boast a wall of corporate awards, our greatest recognition lies in the growth and accomplishments of the individuals we work with.
-
-
-        </p>
-      </div>
-      <div class="col-md-4">
-        <img src="https://images.unsplash.com/photo-1659284652601-7ac13e5750d5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image" class="img-fluid"/>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-          <div class="row align-items-md-stretch">
-            <div class="col-md-6">
-              <div class="h-100 p-5 text-bg-dark rounded-3">
-                <h2>Empowering Tech Trailblazers</h2>
-                <p>
-                  We celebrate the achievements of the young, brilliant minds
-                  who contribute to Nivarix's vibrant ecosystem. Our focus is on
-                  fostering an environment where visionary individuals can
-                  flourish, gain experiences, and contribute meaningfully to
-                  innovative projects. Our greatest reward is seeing our
-                  community members thrive and leave a lasting impact on the
-                  tech landscape.
-                </p>
-                <p>
-                  Nivarix is not just a company; it's a community of learners,
-                  collaborators, and forward-thinkers. We prioritize recognizing
-                  the efforts of those who strive for excellence, providing them
-                  with opportunities to shine and contribute to groundbreaking
-                  projects. Our commitment to empowering the next generation of
-                  tech leaders is reflected in every success story within our
-                  community.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6 bg-with-image awards_recognitions_section_bg_image">
-  <div class="h-100 p-5 shadow border rounded-3">
-    <h2>Building a Legacy of Innovation</h2>
-    <p>
-      Join us in celebrating the visionaries, the creators, and the trailblazers who are defining the future of technology at Nivarix. Together, we're not just achieving milestones; we're building a legacy of innovation and collaboration.
-    </p>
-  </div>
-</div>
-
+          <div className="industry_collaborations_bottom_text text-center">
+            <p>
+              Be part of our story, and let's shape the African future together{" "}
+              <BsBoxArrowUpRight />.
+            </p>
           </div>
         </div>
       </section>
 
       {/* Employee Spotlights Section */}
-      <section className="employee_spotlights_section container">
-        <div className="employee_spotlights_container">
+      <section className="employee_spotlights_section  card">
+        <div className="employee_spotlights_container container">
           <h2>Spotlighting Visionary Minds</h2>
           <p>
             At Nivarix, our strength lies not just in the technology we build
@@ -273,17 +280,13 @@ function CaseStudy() {
                 <svg
                   class="bd-placeholder-img"
                   width="100%"
-                  height="100%"
+                  height="300px"
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
                   preserveAspectRatio="xMidYMid slice"
                   focusable="false"
                 >
-                  <rect
-                    width="100%"
-                    height="100%"
-                    fill="var(--bs-secondary-color)"
-                  />
+                  <rect width="100%" height="300px" fill="var(--bs-success)" />
                 </svg>
                 <div class="container">
                   <div class="carousel-caption text-start">
@@ -295,10 +298,32 @@ function CaseStudy() {
                       section is a glimpse into our ambitious vision and the
                       exciting initiatives that will shape our path forward.
                     </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg
+                  class="bd-placeholder-img"
+                  width="100%"
+                  height="300px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false"
+                >
+                  <rect width="100%" height="300px" fill="var(--bs-info)" />
+                </svg>
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>Charting the Nivarix Journey</h1>
                     <p>
-                      <a class="btn btn-lg btn-primary" href="#">
-                        Sign up today
-                      </a>
+                      At Nivarix, we are on a journey of constant innovation and
+                      evolution. Our commitment to transparency is unwavering,
+                      and we take pride in sharing our future plans with you.
+                      The upcoming projects showcased here embody our dedication
+                      to continuous improvement, keeping us at the forefront of
+                      technology. We are focused on creating solutions that not
+                      only meet but anticipate the needs of tomorrow.
                     </p>
                   </div>
                 </div>
@@ -307,54 +332,16 @@ function CaseStudy() {
                 <svg
                   class="bd-placeholder-img"
                   width="100%"
-                  height="100%"
+                  height="300px"
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
                   preserveAspectRatio="xMidYMid slice"
                   focusable="false"
                 >
-                  <rect
-                    width="100%"
-                    height="100%"
-                    fill="var(--bs-secondary-color)"
-                  />
+                  <rect width="100%" height="300px" fill="var(--bs-primary)" />
                 </svg>
                 <div class="container">
-                  <div class="carousel-caption">
-                    <h1>Another example headline.</h1>
-                    <p>
-                      As we innovate and evolve, we are committed to
-                      transparency and sharing our plans with you. Our future
-                      projects represent a commitment to continuous improvement,
-                      staying at the forefront of technology, and creating
-                      solutions that anticipate the needs of tomorrow.
-                    </p>
-                    <p>
-                      <a class="btn btn-lg btn-primary" href="#">
-                        Learn more
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <svg
-                  class="bd-placeholder-img"
-                  width="100%"
-                  height="100%"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <rect
-                    width="100%"
-                    height="100%"
-                    fill="var(--bs-secondary-color)"
-                  />
-                </svg>
-                <div class="container">
-                  <div class="carousel-caption text-end">
+                  <div class="carousel-caption text-start">
                     <h1>One more for good measure.</h1>
                     <p>
                       We're excited to unveil upcoming ventures that reflect our
@@ -363,11 +350,6 @@ function CaseStudy() {
                       solutions to cutting-edge technologies, each project in
                       our roadmap aligns with our core values of excellence,
                       innovation, and client satisfaction.
-                    </p>
-                    <p>
-                      <a class="btn btn-lg btn-primary" href="#">
-                        Browse gallery
-                      </a>
                     </p>
                   </div>
                 </div>
@@ -397,11 +379,17 @@ function CaseStudy() {
               ></span>
               <span class="visually-hidden">Next</span>
             </button>
+          </div>
+        </div>
+
+        <div className="c_s_join_section pb-4">
+          <p>
             Join us as we navigate the future. Whether you're a client, partner,
             or enthusiast, this section is an invitation to be part of our
             journey. Stay tuned for updates, announcements, and the unveiling of
             projects that define the next chapter in the Nivarix story.
-          </div>
+            <BsBoxArrowUpRight />
+          </p>
         </div>
       </section>
       {/* Add details of upcoming projects */}

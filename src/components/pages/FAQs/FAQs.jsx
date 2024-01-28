@@ -1,9 +1,12 @@
+
+
 import React, { useState } from 'react';
 import { FaQuestionCircle } from 'react-icons/fa';
-import "./FAQ.css";
+import './FAQ.css';
 
 function FAQs() {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeCategory, setActiveCategory] = useState(null);
+  const [activeQuestion, setActiveQuestion] = useState(null);
 
   const faqData = [
     {
@@ -35,70 +38,65 @@ function FAQs() {
     // Add more categories and questions as needed
   ];
 
-  const toggleAccordion = (categoryIndex, questionIndex) => {
-    setActiveIndex(activeIndex === `${categoryIndex}-${questionIndex}` ? null : `${categoryIndex}-${questionIndex}`);
+  const toggleCategory = (categoryIndex) => {
+    setActiveCategory(activeCategory === categoryIndex ? null : categoryIndex);
+    setActiveQuestion(null);
+  };
+
+  const toggleQuestion = (questionIndex) => {
+    setActiveQuestion(activeQuestion === questionIndex ? null : questionIndex);
   };
 
   return (
-    <div className='faq_root'>
-      <h1>Frequently Asked Questions</h1>
-      <div className="faq_categories">
-        {faqData.map((category, categoryIndex) => (
-          <div key={categoryIndex} className="faq_category">
-            <h2>{category.category}</h2>
-            {category.questions.map((faq, questionIndex) => (
-              <div key={questionIndex} className={`faq_item ${activeIndex === `${categoryIndex}-${questionIndex}` ? 'active' : ''}`}>
-                <div className="faq_question" onClick={() => toggleAccordion(categoryIndex, questionIndex)}>
-                  <FaQuestionCircle className="faq_icon" />
-                  <h3>{faq.question}</h3>
+    <div className="faq_root">
+      <div className="faqs_headings text-center">
+        <h1>Frequently Asked Questions</h1>
+      </div>
+      <div className="faqs_container container">
+        <div className="accordion" id="accordionFAQ">
+          {faqData.map((category, categoryIndex) => (
+            <div className="accordion-item" key={categoryIndex}>
+              <h2 className="accordion-header" id={`heading${categoryIndex}`}>
+                <button
+                  className={`accordion-button ${activeCategory === categoryIndex ? '' : 'collapsed'}`}
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target={`#collapse${categoryIndex}`}
+                  aria-expanded={activeCategory === categoryIndex ? 'true' : 'false'}
+                  aria-controls={`collapse${categoryIndex}`}
+                  onClick={() => toggleCategory(categoryIndex)}
+                >
+                  {category.category}
+                </button>
+              </h2>
+              <div
+                id={`collapse${categoryIndex}`}
+                className={`accordion-collapse collapse ${activeCategory === categoryIndex ? 'show' : ''}`}
+                aria-labelledby={`heading${categoryIndex}`}
+                data-bs-parent="#accordionFAQ"
+              >
+                <div className="accordion-body">
+                  {category.questions.map((faq, questionIndex) => (
+                    <div key={questionIndex} className="faq_item">
+                      <div className="faq_question" onClick={() => toggleQuestion(questionIndex)}>
+                        <FaQuestionCircle className="faq_icon" />
+                        <h3>{faq.question}</h3>
+                      </div>
+                      {activeCategory === categoryIndex && activeQuestion === questionIndex && (
+                        <div className="faq_answer">
+                          <p>{faq.answer}</p>
+                        </div>
+                      )}
+                    </div>
+                  ))}
                 </div>
-                {activeIndex === `${categoryIndex}-${questionIndex}` && (
-                  <div className="faq_answer">
-                    <p>{faq.answer}</p>
-                  </div>
-                )}
               </div>
-            ))}
-          </div>
-        ))}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
 }
 
 export default FAQs;
-
-
-
-
-
-
-// <div className="accordion" id="accordionDefault">
-
-// <div className="accordion-item">
-//   <h3 className="accordion-header" id="headingOne">
-//     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button>
-//   </h3>
-//   <div className="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionDefault">
-//     <div className="accordion-body">This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element.</div>
-//   </div>
-// </div>
-
-// <div className="accordion-item">
-//   <h3 className="accordion-header" id="headingTwo">
-//     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Accordion Item #2</button>
-//   </h3>
-//   <div className="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionDefault">
-//     <div className="accordion-body">This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element.</div>
-//   </div>
-// </div>
-
-// <div className="accordion-item">
-//   <h3 className="accordion-header" id="headingThree">
-//     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Accordion Item #3</button>
-//   </h3>
-//   <div className="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionDefault">
-//     <div className="accordion-body">This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.</div>
-//   </div>
-// </div>
-// </div>
